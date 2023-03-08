@@ -7,3 +7,49 @@ fun main() {
 
 }
 //----------------------------------------------------------------------------------
+fun main() {
+    println("hello world!")
+    
+    
+    
+
+
+//Variaveis - elas armazenam valores 
+//
+// variaveis mutaveis = seu valor pode ser alterado -----------var
+// variaveis nao mutaveis = seu valor nao pode ser alterado ---val
+// 
+// tipos de variaves
+// Boolean - verdadeiro ou falso ex: true ou false
+// String - caracteres em gerais .....entre aspas duplas
+// Char - apenas um digito de caractere .... dentro de aspas simples ex: 'J'
+// Int - numeros inteiros ex 100
+// Double - numeros decimais, com um limite de 7 digitos apos a virgula, ex: 22.5
+// 
+// Float - numeros decimais com limite de ate 14 digitos apos a virgula. ex: 22.5f
+// 
+// Long - numeros longos com muitos digitos inteiros, ou decimal
+// 
+//Estrutura de uma variavel
+// 
+//  var nome = valor  
+//  ou
+//  var nome: Tipo
+
+var professor = "Rodinei"
+var professorr: String
+
+var A: String
+var B: String
+var C: String
+
+A = 100
+B = 50
+C = A * B  
+
+    
+println(C)
+
+}
+
+//--------------------------------------------------------------------------------------------
