@@ -53,3 +53,68 @@ println(C)
 }
 
 //--------------------------------------------------------------------------------------------
+Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+​
+fun main() {
+    // Concatenaçao
+    // 
+    // 
+    /*
+    var tartaruga = "Michael"
+    
+    println("O nome da tartaruga do Kilyan Mdappe é $tartaruga")
+    
+    println("O nome da tartaruga do Kilyan Mdappe é " + tartaruga)
+    
+    var lecrerc = 2
+    var alonso = 1
+    
+    println("A posicao do Lek lek + a posicao do Alonso é igual a ${(lecrerc + alonso)}")
+    println("A posicao do Lek lek + a posicao do Alonso é igual a " +(lecrerc + alonso))
+   
+    var nome = "Ireno"
+    var idade = 39
+    var cidade = "Sao Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //Exercício - faça um dialogo de no minimo 15 linhas, nele deve conter, 
+    //os nomes de quem esta falando de forma concatenada usando variaveis 
+​
+    var nome = "Ireno Prado" 
+    var curso = "Programação Mobile"
+    var escola = "BMS"
+    var idade = 39
+    var date = "Segunda-feira"
+    var profissao = "programador"
+    var salario = 30000
+    var acrescimo = 10000
+    
+    println("Bom dia, hoje é $date")
+    println("Vamos começar nossa entrevista")
+    println("Qual seu nome?")
+    println("Me chamo $nome")   
+    println("Qual sua profissão?")
+    println("Trabalho atualmente como $profissao")
+    println("Qual sua idade?")
+    println("Tenho $idade anos")   
+    println("Onde você estudou programação?")
+    println("Estudei na escola $escola")
+    println("Qual seu ultimo salario?")
+    println("Meu ultimo salario foi de R$$salario")
+    println("Qual sua pretensão salarial atual?")
+    println("Minha pretensao salarial atual é de R$${(salario + acrescimo)}")
+    println("Parabens vc tem a vaga!")
+  }
+//--------------------------------------------------------------------------------------------
