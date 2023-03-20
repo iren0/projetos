@@ -188,3 +188,42 @@ fun main() {
   }
 
 //-------------------------------------------------------------------------------------------------------------
+
+
+fun main() {
+    
+    //Operadores matemáticos
+    // + -> adicao
+    // - -> subtracao
+    // / -> divisao
+    // * -> multiplicaçao
+    // % -> modulo
+    /* 
+    
+    var halls = 7
+    var freegells = 6
+    
+    println(halls % freegells)
+    */
+    //Exercicio - faça uma calculadora que contenha cada um dos operadores matematicos 
+    // como resultado do calculo de duas variaveis (contendo resultado para +, /, *, e %),
+    // contendo tambem uma interface simples e bem bonita
+    // 
+    
+    var num1 = 10
+    var num2 = 15
+    
+    println("************************INICIO************************")
+    println()
+    println("Calculos para os numeros 10 e 15")
+    println()
+    println("A Soma dos numeros $num1 e $num2 é igual a: ${(num1 + num2)}")
+    println("A Subtraçao dos numeros $num2 e $num1 é igual a: ${(num2 - num1)}")
+    println("A Multiplicaçao dos numeros $num1 e $num2 é igual a: ${(num2 * num1)}")
+    println("A divisão entre os numeros $num2 e $num1 é igual a: ${(num2 / num1)}")
+    println("A sobra da divisao entre os numeros $num2 e $num1 é igual a: ${(num2 % num1)}")
+    println()
+    println("*************************FIM**************************")
+   
+}
+//-------------------------------------------------------------------------------------------------------------
