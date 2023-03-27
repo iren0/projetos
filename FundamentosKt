@@ -334,3 +334,171 @@ if(fome){
 
 }
 //-----------------------------------------------------------------------------------------------------
+fun main() {
+    
+    //Operadores matemáticos
+    // + -> adicao
+    // - -> subtracao
+    // / -> divisao
+    // * -> multiplicaçao
+    // % -> modulo
+    /* 
+    
+    var halls = 7
+    var freegells = 6
+    
+    println(halls % freegells)
+    */
+    //Exercicio - faça uma calculadora que contenha cada um dos operadores matematicos 
+    // como resultado do calculo de duas variaveis (contendo resultado para +, /, *, e %),
+    // contendo tambem uma interface simples e bem bonita
+    // 
+    /*
+    var num1 = 10
+    var num2 = 15
+    
+    println("************************INICIO************************")
+    println()
+    println("Calculos para os numeros 10 e 15")
+    println()
+    println("A soma dos numeros $num1 e $num2 é igual a: ${(num1 + num2)}")
+    println("A equação de subtraçao do numero $num2 menos o numero $num1 é igual a: ${(num2 - num1)}")
+    println("A multiplicaçao dos numeros $num1 e $num2 é igual a: ${(num2 * num1)}")
+    println("A divisão entre os numeros $num2 e $num1 é igual a: ${(num2 / num1)}")
+    println("A sobra da divisao entre os numeros $num2 e $num1 é igual a: ${(num2 % num1)}")
+    println()
+    println("*************************FIM**************************")
+   */
+    
+// Operadores relacionais
+// 
+//  == -> igual a..
+//  != -> diferente de ..
+// ! -> negando valor
+// > maior que
+// < menor que
+// >= maior ou igual a..
+// <= menor ou igual a..
+// 
+// ++ -> adiciona 1 a um valor
+// -- -> subtrai 1 do valor
+// += -> adiciona um determinado valor a um valor
+// -= -> subtrai um determinado valor a um valor
+// 
+/*
+var clau = 50
+var jose = 30
+var bere = 90
+var bern = 80
+
+println(clau)
+clau++
+println(clau)   
+
+println(jose)
+jose--
+println(jose)
+
+println(bere)
+bere += clau
+println(bere)
+
+println(bern)
+bern -= jose
+println(bern)
+*/
+    
+// condicoes if..else
+// se ... senao
+// 
+// if .. else  simples
+// 
+// estrutura:
+// if(condicao){
+// acao
+// }
+// else{
+// acao
+// }
+// 
+/*   
+var interr = true
+
+if(interr != true){
+	println("Luz acesa :)")
+}else(
+	println("Luz apagada :( ")
+)
+*/
+/*
+var fome = true
+
+if(fome){
+	println("Alimente-se!")
+}else{
+    println("Alimentou-se")
+}
+*/
+/*var senha = "azeitona"
+var tenta = 0
+
+//while (tenta <=5){
+	if (senha == "azeitona"){
+		println("Bem-vindo Mr Spock!")
+	}else{
+    	println("Senha incorreta! Tente novamente.")
+		++tenta
+	}
+ //   println("Quantidade de vezes ultrapassado limite!")
+//}
+
+// com o if ...else composto, somos permitidos , comparar mais de duas condicoes (o simples e o else), atraves do 'else if'
+
+var coracoes = 2
+if(coracoes >= 5){
+	println("voce esta muito saudavel! Parabens")
+
+}else if(coracoes == 4){
+	println("Voce ta de boa")
+}else if(coracoes == 3){
+	println("Cuidado, com sua saude")
+}else if(coracoes == 2){
+	println("Va se tratar, vc nao esta bem")
+}else if(coracoes == 1){
+	println("Estado critico!")
+}else{
+	println("Novo reforco do Vasco")
+}
+
+//1) faca um programa usando duas variaveis que representem cada uma, um numero.
+// o programa deve verificar qual dos dois é o maior numero e imprimi-lo no console
+
+//2) faca um programa que verifique se o valor de uma variavel e maior, igual ou menor que 0 (positivo ou negativo, ou nenhum do dois)
+*/
+
+var a = 5
+var b = 2
+
+if(a > b){
+	println("O maior numero é o $a")	
+}else if(a==b){
+	println("Os numeros sao iguais, numero $a")
+}else{
+	println("O maior numero é o $b")
+}
+
+
+var c = -200
+
+if(c > 0){
+	println("$c. O numero é maior que zero!")
+}
+else if(c==0){
+	println("$c. O numero é zero!")
+}
+else{
+    println("$c. O numero é negativo!")
+}
+
+}
+//------------------------------------------------------------------------
