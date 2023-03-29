@@ -502,3 +502,55 @@ else{
 
 }
 //------------------------------------------------------------------------
+fun main() {
+//
+////1) faca um programa usando duas variaveis que representem cada uma, um numero.
+// o programa deve verificar qual dos dois é o maior numero e imprimi-lo no console
+
+//2) faca um programa que verifique se o valor de uma variavel e maior, igual ou menor que 0 (positivo ou negativo, ou nenhum do dois)
+
+/*
+var a = 2
+var b = 2
+
+if(a > b){
+	println("O maior numero é o $a")	
+}else if(a==b){
+	println("Os numeros sao iguais, numero $a")
+}else{
+	println("O maior numero é o $b")
+}
+
+
+var c = 0
+
+if(c > 0){
+	println("O numero encontrado, $c, é maior que zero!")
+}
+else if(c==0){
+	println("O numero encontrado é zero ($c)!")
+}
+else{
+    println("O numero encontrado, $c, é negativo!")
+}
+*/
+    
+// Operadores logicos 
+// && -> e , ou and (Se todas as condicoes forem verdadeiras o resultado sera verdadeiro)
+// || -> ou (se uma das condicoes for verdadeira o resultado sera verdadeiro)
+// 
+// tabela verdade
+// 
+// &&
+// VVV -> V
+// VVF -> F
+// VFV -> F
+// VFF -> F
+// FVV -> F
+// FVF -> F
+// FFV -> F
+// FVF -> F
+// FFF -> F
+
+}
+//---------------------------------------------------------------------------------------
