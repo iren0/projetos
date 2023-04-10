@@ -619,3 +619,43 @@ while(c <= 6){
 
 }
 //---------------------------------------------------------------------------------------------
+fun main() {
+    /*var mes =5
+    
+    when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        4 -> {println("Canada")}
+        5 -> {println("Holanda")}
+        6 -> {println("Japao")}
+        7 -> {println("Barcelona")}
+        8 -> {println("EUA")}
+        9 -> {println("Mexico")}
+        10 -> {println("Espanha")}
+        11 -> {println("Australia")}
+        12 -> {println("Coreia")}
+        else -> {println("Acordou")}
+    }
+  */  
+//Exercicio: Escreve um programa em Kotlin que declare uma variavel chamada "dia da semana" do tipo String
+//que represente um dia da semana. Em seguida, utilize a declaracao "when" para exibir uma mensagem na tela 
+//informando se o dia da semana e um dia util ou um final de semana.
+
+var diadasemana = "terça"
+
+when(diadasemana){
+    "domingo" -> {println("final de semana")}
+    "segunda" -> {println("Dia util")}
+    "terça" -> {println("Dia util")}
+    "quarta" -> {println("Dia util")}
+    "quinta" -> {println("Dia util")}
+    "sexta" -> {println("Dia util")}
+    "sabado" -> {println("final de semana")}
+	else -> {println("Nenhum dia da semana")}
+
+
+}
+
+
+}
+//-----------------------------------------------------------------------------------------------------
