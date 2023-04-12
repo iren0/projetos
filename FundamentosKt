@@ -659,3 +659,75 @@ when(diadasemana){
 
 }
 //-----------------------------------------------------------------------------------------------------
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    // Lacos de repeticao - Loops
+    // 
+    // repeat - repita 
+    // while - enquanto
+    // do..while - faca .. enquanto
+    // for - para
+    // 
+    // repeat - repita
+    // ele ira repetir uma determinada acao uma determinada quantidade de vezes
+    // 
+    // estrutura do repeat
+    // 
+    // repeat(numero de vezes){
+    // acao 
+    // }
+
+//repeat(8){
+	//println("Isto eh um teste!")
+//}
+
+//Exercicio: Faca um programa com auxilio de uma variavel contador, no qual nela sera acrescentada 1 a cada repeticao,
+//ate que de a quantidade de vezes decididida
+
+/*var cont = 5
+var a = 0
+
+repeat(cont){
+    println(a)
+	a ++
+}
+  */
+
+//Laco while - enquanto
+//
+//enquanto uma condicao for verdadeira, uma determinada acao estara sendo executada
+//
+//estrutura do while
+//
+// while(condicao){
+// acao
+// }
+
+//var contador = 0
+//while(contador < 10){
+	//println(contador++)
+//}
+
+//Exercicio: simulador de bateria de celular
+//Faca um programa com while que mostre a bateria 100% dimunuindo
+//quando ela chegar em 15%, deve pedir a mensagem pedindo para carregar
+//quando chegar a 0%, aparelho desligando
+
+var bat = 100
+while(bat > 0){
+	println(bat--)
+    if(bat == 15){
+		println("Bateria em 15%, carregue imediatamente!")
+	}
+	if(bat == 0){
+		println("Bateria em 0%, celular desligando")
+	}
+}
+
+
+
+}
+//------------------------------------------------------------------------------------------------
