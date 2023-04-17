@@ -718,9 +718,11 @@ repeat(cont){
 
 var bat = 100
 while(bat > 0){
-	println(bat--)
+	println("$bat%")
+	bat--
     if(bat == 15){
 		println("Bateria em 15%, carregue imediatamente!")
+        bat--
 	}
 	if(bat == 0){
 		println("Bateria em 0%, celular desligando")
