@@ -916,3 +916,70 @@ while(num1 < cont){
 
 }
 //---------------------------------------------------------------------------------------
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+
+
+//
+// mutablelistOf() --> ela armazena qualquer tipo de valores conjuntos 
+// mutablelistOf(tipodevalor) --> armazena valores especificos de seu tipo
+// 
+/*var comida = mutableListOf<String>("strognoff","Pate de frango","Lasagna","Feijoada")
+println(comida)
+//Propriedades
+comida.add("macarrao")
+println(comida)
+comida.add(3, "Cuscuz") //adiciona um valor espcifico na lista
+println(comida)
+comida.remove("Pate de frango")
+println(comida)
+comida.removeAt(0) //remove um valor de um index em especifico
+println(comida)
+comida.set(2, "Pastel de carne Seca")
+println(comida)
+comida.clear() //remover todos o valores da lista
+println(comida)
+*/
+//Exercicio: A cada mes do ano uma turma de 5 alunos entra um aluno novo
+//cria a lista inicial de alunos da turma
+//a cada mes adicione um novo aluno(em linhas diferentes)
+//em dois meses do ano, 2 alunos foram transferidos da turma
+//e em dois meses do ano, dois alunos foram substituidos por outros dois(dica: substituidos em meses diferentes)
+//exiba a lista de alunos respectiva de cada mes do ano.
+
+var sala = mutableListOf<String>("Pedro", "Davi", "Natalia", "Jose", "Maria")
+println("Sala Inicial:"+ sala)
+sala.add("Nadia")
+println("Sala Janeiro:"+ sala)
+sala.add("Batista")
+println("Sala Fevereiro:"+ sala)
+sala.add("Miguel")
+println("Sala Março:"+ sala)
+sala.removeAt(0)
+sala.add("Adilson")
+println("Sala Abril:"+ sala)
+sala.add("Fabio")
+println("Sala Maio:"+ sala)
+sala.add("Gisele")
+sala.set(2, "Vanderlei")
+println("Sala Junho:"+ sala)
+sala.add("Flavia")
+println("Sala Julho:"+ sala)
+sala.add("Pedro Henrique")
+sala.set(4, "Kiko")
+println("Sala Agosto:"+ sala)
+sala.add("Cassia")
+println("Sala Setembro:"+ sala)
+sala.add("Eduardo")
+println("Sala Outubro:"+ sala)
+sala.removeAt(3)
+sala.add("Ireno")
+println("Sala Novembro:"+ sala)
+sala.add("Guilherme")
+println("Sala Dezembro:"+ sala)
+
+}
+//-----------------------------------------------------------------------------------
