@@ -983,3 +983,19 @@ println("Sala Dezembro:"+ sala)
 
 }
 //-----------------------------------------------------------------------------------
+//POO
+//
+//programacao orientada a objetos
+//
+//objetivo: simular atividades e situacoes do mundo real
+//
+//Objeto - elementos que podem interagir com um sistema Ex: Pé
+//
+//classe - denominacao de um determinado objeto Ex: Membro do corpo
+//
+//atributos - caracteristicas, propriedades, parametros ex: tamanho
+//
+//Metodos - atividades, açoes, que o objeto pode realizar ex: chutar
+//
+//Herança - atributos de um objeto que sao herdados de uma classe
+//-------------------------------------------------------------------------------
