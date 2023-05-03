@@ -999,3 +999,39 @@ println("Sala Dezembro:"+ sala)
 //
 //Herança - atributos de um objeto que sao herdados de uma classe
 //-------------------------------------------------------------------------------
+fun main() {
+
+	var ireno = Pessoa() //instanciamos um objeto
+	
+	//println(pessoa1.peso)//exibir um atributo de um obj
+    //pessoa1.nome = "Whinderson" //alterar o valor de um atributo de um obj
+    //println(pessoa1.nome + "," + pessoa1.idade)
+    
+    //Exercicio -> Faça uma apresentacao sua utilizando a classe Pessoa() ja criada e utilizando pelo 
+    //menos, todos os atributos que existem na classe
+    
+    ireno.nome = "Ireno Prado"
+	ireno.idade = 41
+    ireno.nacionalidade = "Brasilian"
+    ireno.idioma = "Portuguese, English, Spanish, German, Dutch and Chinese"
+    ireno.profissao = "LA, Head Sales"
+    println("Name: "+ireno.nome)
+    println("Age: "+ireno.idade)
+    println("Nationality: "+ireno.nacionalidade)
+    println("Language: "+ireno.idioma)
+    println("Occupation: "+ireno.profissao)
+
+
+}
+
+class Pessoa{
+//atributos que toda pessoa pode ter
+	var nome = ""
+    var idade = 0
+	var nacionalidade = ""
+	var idioma = "Portugues" //Valor inicial
+	var profissao = ""
+
+
+}
+//-------------------------------------------------------------------------------------------------------------------
