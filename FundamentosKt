@@ -1035,3 +1035,54 @@ class Pessoa{
 
 }
 //-------------------------------------------------------------------------------------------------------------------
+fun main() {
+   
+/*
+	var ireno = Pessoa() //instanciamos um objeto
+	
+	//println(pessoa1.peso)//exibir um atributo de um obj
+    //pessoa1.nome = "Whinderson" //alterar o valor de um atributo de um obj
+    //println(pessoa1.nome + "," + pessoa1.idade)
+    
+    //Exercicio -> Faça uma apresentacao sua utilizando a classe Pessoa() ja criada e utilizando pelo 
+    //menos, todos os atributos que existem na classe
+    
+    ireno.nome = "Ireno Prado"
+	ireno.idade = 41
+    ireno.nacionalidade = "Brasilian"
+    ireno.idioma = "Portuguese, English, Spanish, German, Dutch and Chinese"
+    ireno.profissao = "LA, Head Sales"
+    println("Name: "+ireno.nome)
+    println("Age: "+ireno.idade)
+    println("Nationality: "+ireno.nacionalidade)
+    println("Language: "+ireno.idioma)
+    println("Occupation: "+ireno.profissao)
+
+*/
+
+var pessoa3 = Pessoa()
+var animal1 = Animal("Cachorro", "vira-lata", 7, "chinelo", "grande")
+//Exercicio -> Faça o catalogo de animais que estao morando no zoologico de SP
+//com no minimo de 20 animais, sem repeticao de raça.
+var animal2 = Animal("Gato", "Siames", 2, "racao", "pequeno")
+
+
+}
+
+class Pessoa{
+//atributos que toda pessoa pode ter
+	var nome = ""
+    var idade = 0
+	var nacionalidade = ""
+	var idioma = "Portugues" //Valor inicial
+	var profissao = ""
+    
+}
+class Animal(var especie: String, //atributos que todo animal deve ter
+			var raca: String, 
+			var idade: Int, 
+			var dieta: String, 
+			var porte: String){
+	
+}
+//--------------------------------------------------------------------------------------------------
