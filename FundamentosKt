@@ -1177,3 +1177,38 @@ class Animal(var especie: String, //atributos que todo animal deve ter
 	
 }
 //--------------------------------------------------------------------------------------------------------
+fun main() {
+   
+var animalzin = Animal("Cachorro", "Shih-tzu", 8, "Chinelo", "pequeno")
+var animal2 = Animal("Gato", "siames", 2, "peixe", "grande")
+var animalzao = Animal("Golfinho", "Boto", 50, "Sardinha", "medio")
+
+animalzao.correr(120.0, "rio amazonia")
+
+animal2.comer(animal2.dieta)
+animalzin.comer(animalzin.dieta)
+
+}
+
+
+class Animal(var especie: String, //atributos que todo animal deve ter
+			var raca: String, 
+			var idade: Int, 
+			var dieta: String, 
+			var porte: String){
+    
+//estrutura de um metodo:
+//fun (nomeDoparametro:tipoDoparametro){
+// ação
+//}
+
+fun comer(alimento: String){
+	println("$especie comendo $alimento, yumm!! :)")
+}
+
+fun correr(velocidade: Double, lugar: String){
+	println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")
+}
+	
+}
+//-----------------------------------------------------------------------------------------
